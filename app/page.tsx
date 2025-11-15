@@ -43,6 +43,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-4 text-slate-950">
             Markdown Editor
           </h2>
+
           <textarea
             className="flex-1 w-full h-96 p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none bg-gray-50 text-gray-800 font-mono"
             value={markdown}
@@ -52,7 +53,7 @@ export default function Home() {
           <div className="mt-4 flex space-x-3">
             <button
               onClick={handleDownload}
-              className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
+              className="px-4 py-2 bg-black text-white rounded-lg hover:bg-green-600 transition"
             >
               Download HTML
             </button>
@@ -73,7 +74,7 @@ export default function Home() {
             Preview
           </h2>
           <div
-            className="flex-1 overflow-auto p-4 border border-gray-200 rounded-lg bg-gray-50 text-slate-900 prose max-w-full"
+            className="flex-1 prose overflow-auto p-4 border border-gray-200 rounded-lg bg-gray-50 text-slate-900  max-w-full "
             dangerouslySetInnerHTML={{ __html: htmlPreview }}
           />
         </div>
