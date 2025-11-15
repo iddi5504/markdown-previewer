@@ -1,4 +1,4 @@
-# MDX Vibe Editor
+# Mardown Previewer & Editor
 
 A modern **Next.js** app for live Markdown/MDX editing and previewing, built with **Tailwind CSS** and **Tailwind Typography (`prose`)**. Users can type or paste Markdown/MDX, see a live preview, and download the rendered HTML. All images and content are styled with a clean, modern UI.
 
