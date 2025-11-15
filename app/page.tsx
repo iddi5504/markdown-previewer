@@ -43,6 +43,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-4 text-slate-950">
             Markdown Editor
           </h2>
+
           <textarea
             className="flex-1 w-full h-96 p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none bg-gray-50 text-gray-800 font-mono"
             value={markdown}
